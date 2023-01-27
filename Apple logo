@@ -1,0 +1,37 @@
+from turtle import *
+
+speed(6)
+width (5)
+
+begin_fill()
+lt(160)
+circle(100,100)
+circle(200,60)
+circle(40,90)
+circle(-40,100)
+circle(40,100)
+circle(200,30)
+lt(90)
+circle(-70,150)
+lt(120)
+circle(160,55)
+end_fill()
+
+begin_fill()
+rt(110)
+up()
+fd(30)
+down()
+circle(-100,90)
+right(90)
+circle(-100,90)
+end_fill()
+
+up()
+goto(-30, -130)
+down()
+color("white")
+write('apple')
+
+hideturtle()
+done()
